@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2c3e50; /* Azul oscuro */
+}
+
+.contenedor {
+    width: 80%; /* Ancho del contenedor */
+    margin: 20px auto;
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor h1 {
+    color: #333;
+    text-align: center;
+}
+
+.contenedor p {
+    color: #666;
+    text-align: justify;
+}
+
+.multimedia {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.imagen-trunks img {
+    max-width: 80%; /* Reducir el tamaño de la imagen de Trunks */
+    height: auto;
+    margin-bottom: 20px; /* Espacio inferior */
+    display: block; /* Para centrar la imagen */
+    margin-left: auto; /* Centrar horizontalmente */
+    margin-right: auto; /* Centrar horizontalmente */
+}
+
+.imagen-vegeta img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.multimedia h2 {
+    color: #333;
+}
+
+.multimedia p {
+    color: #666;
+    text-align: justify;
+}
+
+.ver-video {
+    background-color: #007bff; /* Color azul */
+    color: #fff; /* Color blanco */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ver-video:hover {
+    background-color: #0056b3; /* Color azul más oscuro al pasar el mouse */
+}
+
+.multimedia video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-left: auto; /* Centrar el video */
+    margin-right: auto; /* Centrar el video */
+}
